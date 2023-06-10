@@ -1,0 +1,51 @@
+.head{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    position: relative;
+    padding: 129px 80px 159px;
+    width: 100%;
+    background: radial-gradient( 30.56% 76.04% at 74.58% 0%,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+    .head_bg{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        z-index: -1;        
+    }
+    .head_pre-title{
+       
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        
+    }
+    .title{
+        width: 60%;
+        padding: 24px 0;
+        font-family: 'Sen', sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: -2px;
+    }
+    .head_desc{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 1px;
+        
+        .head_text{
+            padding: 15px 0 48px;
+            width: 46%;
+            
+        }
+           
+        
+        
+    }
+
+}

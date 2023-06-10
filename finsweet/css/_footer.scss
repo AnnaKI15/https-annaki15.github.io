@@ -1,0 +1,67 @@
+.footer{
+    padding: 61px 0px;
+    background: #232536;
+    .wrapper_content{
+        padding-bottom: 59px;
+    }
+    .footer_subscr{
+        // width: 100%;
+        padding: 80px 64px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.05);
+        color: #fff;
+        .sibscr_title {
+                width: 55%;
+                font-family: 'Sen', sans-serif;
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 48px;
+                padding-right: 64px;
+        
+            }
+        .subscr_input{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            .input{
+                margin-right: 24px;
+                padding: 14px 25px;
+                border: #4C4C4C 1px solid;
+                width: 70%;
+                font-size: 16px;
+                font-weight: 400;
+                font-family: 'Inter', sans-serif;
+                line-height: 28px;
+                background: none;
+            }   
+        }
+        
+    }
+    .footer_social{
+        width: 100%;
+        padding: 48px 0 0px;
+        display: flex;
+        justify-content: space-between;
+        .social_adress{
+            font-family: 'Inter', sans-serif;
+            letter-spacing: 1px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            color: #fff;
+            opacity: 0.7;
+        }
+        .social_net{
+            display: flex;
+            justify-content: space-between;
+            width: 10%;
+            align-items: center;
+            .icon{
+                filter: brightness(2);
+            }
+        }
+    }
+}

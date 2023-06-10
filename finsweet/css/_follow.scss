@@ -1,0 +1,19 @@
+.follow{
+    padding: 128px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .follow_content{
+        width: 412px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        .font_text{
+            padding: 16px 0px 32px;
+        }
+    }
+    
+    
+}

@@ -1,0 +1,38 @@
+.specialpost_descr{
+    position: relative;
+    .specialpost_img{
+        z-index: -1;
+    }
+    .specialpost_content{
+        padding: 80px;
+        background: #FFFFFF;
+        width: 50%;
+        position: absolute;
+        z-index: 2;
+        top: 18%;
+        right: 10%;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+        color: #232536;
+        .speacilpost_subtitle{
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        .spesial_title{
+            padding: 24px 0px 16px;
+            font-family: 'Sen', sans-serif;
+            letter-spacing: -2px;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 64px;
+        }
+        .specialpost_text{
+            
+            padding-bottom: 32px;
+            
+        }
+    }
+    
+}

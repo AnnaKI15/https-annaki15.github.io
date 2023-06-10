@@ -1,0 +1,42 @@
+.category{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 128px 0px;
+    .title{
+        text-align: center;
+        font-size: 36px;
+    }
+    .category_carts{
+        margin-top: 48px;
+        display: flex;
+        justify-content: space-between;
+       
+        .category_cart{
+            
+            margin-right: 32px;
+            padding: 32px;
+            border: 1px rgba(109, 110, 118, 0.3) solid ;
+            transition: 0.3s;
+            position: relative;
+            .cart_icon{
+                width: 48px;
+                height: 48px;
+                background:#FBF6EA;
+                border-radius: 10px;
+                z-index: 100;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               
+            }
+           
+            &:hover{
+                cursor: pointer;
+                background:#FFD050;
+                transition: 0.3s;
+            }
+        }
+       
+    }
+    
+}

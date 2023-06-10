@@ -1,0 +1,18 @@
+
+.btn {
+        font-family: 'Sen', sans-serif;
+        color: #232536;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        padding: 16px 48px;
+        background: #FFD050;
+        transition: 0.3s;
+
+   
+    &:hover{
+        cursor: pointer;
+        background: #EDC14A;
+        transition: 0.3s;
+    }
+ }
